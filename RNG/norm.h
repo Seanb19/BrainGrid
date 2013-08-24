@@ -54,7 +54,8 @@
 
    Modified from norm.c, from xneuron3
 */
-class Norm : public RNG {
+//class Norm : public RNG {
+class Norm : public MTRand {
 public:
     inline virtual ~Norm() {}
 
